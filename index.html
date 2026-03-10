@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatbot | Premium Intelligent Assistant</title>
+    <meta name="description"
+        content="Experience the next generation of AI with chatbot12.1 - powerful, elegant, and intelligent.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <div class="noise-overlay"></div>
+    <div class="blob-container">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+        <div class="blob blob-4"></div>
+    </div>
+
+    <main class="app-container">
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="logo-icon">
+                    <i data-lucide="cpu"></i>
+                </div>
+                <div class="brand-text">
+                    <h1>chatbot<span>RJ</span></h1>
+                    <span class="version-tag">TECH</span>
+                </div>
+            </div>
+
+            <nav class="chat-history">
+                <div class="nav-label">Workspace</div>
+                <button class="nav-item active">
+                    <i data-lucide="layout"></i>
+                    <span>CHATS</span>
+                </button>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="user-profile">
+                    <div class="avatar-container">
+                        <div class="avatar">RM</div>
+                        <div class="avatar-ring"></div>
+                    </div>
+                    <div class="user-info">
+                        <span class="user-name">RITHAN</span>
+                        <span class="user-badge">Level MAX AI</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <section class="chat-interface">
+            <header class="chat-header">
+                <div class="header-info">
+                    <div class="model-badge">
+                        <i data-lucide="zap"></i>
+
+                    </div>
+                    <div class="header-main">
+                        <h2>chatbot Neural Foundation</h2>
+                        <div class="status-indicator">
+                            <span class="status-dot"></span>
+                            <span class="status-text">Synchronized</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-actions">
+                </div>
+            </header>
+
+            <div class="messages-container" id="messages-container">
+                <div class="message system-date">
+                    <span>TODAY</span>
+                </div>
+                <div class="message ai-message">
+                    <div class="message-content">
+                        <div class="ai-burst"></div>
+                        <p>Welcome back, RIZZ. <strong>Its JASMIN</strong> your systematis AI</p>
+                        <p>How shall we push the boundaries today?</p>
+                        <span class="timestamp">jasmin</span>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="input-area">
+                <div class="input-wrapper">
+                    <div class="input-container">
+                        <div class="input-actions-left">
+                        </div>
+                        <textarea id="user-input" placeholder="Message chatbot12.1..." rows="1"></textarea>
+                        <div class="input-actions-right">
+                            <button class="send-btn" id="send-btn" title="Send message">
+                                <i data-lucide="arrow-up"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="input-footer">
+                        <span>Powered by 12.1 Neural Engine</span>
+                    </div>
+                </div>
+            </footer>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
