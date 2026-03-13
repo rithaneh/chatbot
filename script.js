@@ -20,7 +20,7 @@ userInput.addEventListener('keydown', (e) => {
 });
 
 // Gemini API Configuration
-const GEMINI_API_KEY = "AIzaSyBn7MPLrLfZlSHik84qoq7HwQ5mysdrzmM";
+const GEMINI_API_KEY = "AIzaSyDa7se4JqBaxtIOLX7JYr2B2d3bGk-2QwE";
 const MODEL = "gemini-2.5-flash"; // Manually set to v2.5 as requested
 
 async function getAIResponse(userText) {
@@ -145,3 +145,4 @@ document.querySelector('.action-btn[title="Clear History"]').addEventListener('c
 
 // Initialize icons for any dynamically added elements if needed
 // lucide.createIcons() is handled in HTML for initial elements
+
